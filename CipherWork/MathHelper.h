@@ -104,7 +104,7 @@ BigInt modInverse(BigInt a, BigInt m)
 	BigInt g = gcdExtended(a, m, &x, &y);
 	if (g != 1)
 	{
-		return -1;
+		return 0;
 	}
 	else
 	{

@@ -71,6 +71,30 @@ public:
 		return RSA::Key(0, 0);
 	}
 
+	static std::string DecipherWithT(std::vector<BigInt> Blocks, RSA::Key Key, std::string alphabet)
+	{
+		std::string Retstr;
+		std::string CipherRep;
+		for (auto& B : Blocks)
+		{
+			CipherRep += Cipher(Key, B).toString();
+
+		}
+		for (int i = 0; i < CipherRep.size(); i += 2)
+		{
+			int val = std::stoi(CipherRep.substr(i, 2)) - 10;
+			printf("%i\n", val);
+			if (val >= alphabet.size())
+			{
+				printf("Error!\n");
+				Retstr += '!';
+			}
+			else {
+				Retstr += alphabet[val];
+			}
+		}
+		return Retstr;
+	}
 
 };
 
