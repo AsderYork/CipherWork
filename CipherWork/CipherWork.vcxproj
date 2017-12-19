@@ -149,8 +149,10 @@
   <ItemGroup>
     <ClInclude Include="AlpabetHepers.h" />
     <ClInclude Include="Eleptic.h" />
+    <ClInclude Include="FileInterface_Curve.h" />
     <ClInclude Include="Lect2.h" />
     <ClInclude Include="lect3.h" />
+    <ClInclude Include="Lect4.h" />
     <ClInclude Include="MathHelper.h" />
     <ClInclude Include="RSA.h" />
     <ClInclude Include="stdafx.h" />

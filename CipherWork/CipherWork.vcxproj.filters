@@ -39,6 +39,12 @@
     <ClInclude Include="Eleptic.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="Lect4.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInterface_Curve.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

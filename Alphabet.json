@@ -1,0 +1,228 @@
+{
+    "value0": [
+        {
+            "point_x": 228,
+            "point_y": 271,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "à"
+        },
+        {
+            "point_x": 228,
+            "point_y": 480,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "á"
+        },
+        {
+            "point_x": 229,
+            "point_y": 151,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "â"
+        },
+        {
+            "point_x": 229,
+            "point_y": 600,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ã"
+        },
+        {
+            "point_x": 234,
+            "point_y": 164,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ä"
+        },
+        {
+            "point_x": 234,
+            "point_y": 587,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "å"
+        },
+        {
+            "point_x": 235,
+            "point_y": 19,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "æ"
+        },
+        {
+            "point_x": 235,
+            "point_y": 732,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ç"
+        },
+        {
+            "point_x": 236,
+            "point_y": 39,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "è"
+        },
+        {
+            "point_x": 236,
+            "point_y": 712,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "é"
+        },
+        {
+            "point_x": 237,
+            "point_y": 296,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ê"
+        },
+        {
+            "point_x": 237,
+            "point_y": 454,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ë"
+        },
+        {
+            "point_x": 238,
+            "point_y": 175,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ì"
+        },
+        {
+            "point_x": 238,
+            "point_y": 576,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "í"
+        },
+        {
+            "point_x": 240,
+            "point_y": 309,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "î"
+        },
+        {
+            "point_x": 240,
+            "point_y": 442,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ï"
+        },
+        {
+            "point_x": 243,
+            "point_y": 87,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ð"
+        },
+        {
+            "point_x": 243,
+            "point_y": 664,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ñ"
+        },
+        {
+            "point_x": 247,
+            "point_y": 266,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ò"
+        },
+        {
+            "point_x": 247,
+            "point_y": 485,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ó"
+        },
+        {
+            "point_x": 249,
+            "point_y": 183,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ô"
+        },
+        {
+            "point_x": 249,
+            "point_y": 568,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "õ"
+        },
+        {
+            "point_x": 250,
+            "point_y": 14,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ö"
+        },
+        {
+            "point_x": 250,
+            "point_y": 737,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "÷"
+        },
+        {
+            "point_x": 251,
+            "point_y": 245,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ø"
+        },
+        {
+            "point_x": 251,
+            "point_y": 506,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ù"
+        },
+        {
+            "point_x": 253,
+            "point_y": 211,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ú"
+        },
+        {
+            "point_x": 253,
+            "point_y": 240,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "û"
+        },
+        {
+            "point_x": 256,
+            "point_y": 121,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ü"
+        },
+        {
+            "point_x": 256,
+            "point_y": 630,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ý"
+        },
+        {
+            "point_x": 257,
+            "point_y": 293,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "þ"
+        },
+        {
+            "point_x": 257,
+            "point_y": 458,
+            "point_mod": 751,
+            "point_curveCoef": 4294967295,
+            "letter": "ÿ"
+        }
+    ]
+}
