@@ -52,7 +52,7 @@ Elgomal's cryptosystem
 You need Ep(a,b)
 Any point G on Ep(a,b)
 
-Every use choses random number Sa;
+Every user choses random number Sa;
 Generates Priv = G*Sa
 
 Ciphering

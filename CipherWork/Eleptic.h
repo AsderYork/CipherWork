@@ -94,10 +94,10 @@ public:
 
 	struct Curve
 	{
-		Curve(unsigned int a, unsigned int b, unsigned int mod) : m_a(a), m_b(b), m_mod(mod) {
+		Curve(int a, int b, unsigned int mod) : m_a(a), m_b(b), m_mod(mod) {
 			GenAlphabet();
 		};
-		Point GetPoint(unsigned int x, unsigned int y) {
+		Point GetPoint(int x, int y) {
 			auto Ret = Point(x, y, m_mod, m_a);
 			Ret.x = Ret.norm(Ret.x);
 			Ret.y = Ret.norm(Ret.y);
@@ -255,7 +255,8 @@ public:
 			return Result;
 		}
 
-		unsigned int m_a, m_b, m_mod;
+		int m_a, m_b;
+		unsigned int m_mod;
 		std::vector<Point> Alph;
 	};
 
@@ -316,6 +317,7 @@ public:
 				}
 				Rand = Mask[i];
 
+				printf("%s\n", OtherPriv.curveCoef.toString().c_str());
 				auto LetterMask = OtherPriv * Rand;
 				auto LetterHelp = GenPoint * Rand;
 				auto LetterCipher = Plaintext[i] + LetterMask;
@@ -331,7 +333,7 @@ public:
 
 			for (auto& Cipher : Ciphertext)
 			{
-				Result.push_back(Cipher.first - (Priv*RandKey));
+				Result.push_back(Cipher.first - (Cipher.second*RandKey));
 			}
 			return Result;
 		}

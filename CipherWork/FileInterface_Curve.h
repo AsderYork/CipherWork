@@ -1,6 +1,7 @@
 #pragma once
 #include <fstream>
 #include <string>
+#include <algorithm>
 
 #include <cereal\cereal.hpp>
 #include <cereal\archives\json.hpp>
@@ -160,16 +161,16 @@ void SaveMessage(std::vector<std::string> &in,std::string Filename = std::string
 	//stream << buf;
 }
 
-std::vector<ELeptic::Point> AlgomalDecrypt(ELeptic::Curve& Cur, std::string Filename = std::string("AlgomalCrypt.json"))
+std::vector<ELeptic::Point> AlgomalDecrypt(ELeptic::Curve& Cur, std::string ParamsFile, std::string CiphertextFile)
 {
-	std::ifstream stream(Filename, std::ios_base::in);
+	std::ifstream stream(ParamsFile, std::ios_base::in);
 	cereal::JSONInputArchive Arch(stream);
 
-	unsigned int a = 0, b = 0;
-	Arch(cereal::make_nvp("GenPoint_x", a), cereal::make_nvp("GenPoint_y", b));
-	ELeptic::AlgomalCrypto AlgoCrypt(Cur, Cur.GetPoint(a, b));
+	int gpx = 0, gpy = 0, RandKey = 0;
+	Arch(cereal::make_nvp("Genpoint_x", gpx), cereal::make_nvp("Genpoint_y", gpy), cereal::make_nvp("RandKey", RandKey));
+	ELeptic::AlgomalCrypto AlgoCrypt(Cur, Cur.GetPoint(gpx, gpy), RandKey);
 
-	std::ifstream Cypherstream(Filename, std::ios_base::in);
+	std::ifstream Cypherstream(CiphertextFile, std::ios_base::in);
 	cereal::JSONInputArchive Cipherar(Cypherstream);
 
 	std::vector<AlgoCryptoPair> Crypt;
@@ -272,6 +273,18 @@ void AlgomalEncrypt(std::vector<AlphabetPair> Alph, ELeptic::Curve &Cur, std::st
 	OutArch(Pairs);
 }
 
+std::vector<std::string> FromPointsToString(std::vector<AlphabetPair>& Alphabet, std::vector<ELeptic::Point> &Points)
+{
+	std::vector<std::string> Out;
+	for (auto& Point : Points)
+	{
+		auto Letter = std::find_if(Alphabet.begin(), Alphabet.end(), [&](AlphabetPair &pair) {return pair.point == Point; });
+		if (Letter == Alphabet.end()) { throw std::exception("There are no such point in an alphabet!"); }
+		Out.push_back(Letter->String);
+	}
+	return Out;
+}
+
 void FileInterface()
 {
 	CreateCurveTemplateIfNeeded();
@@ -338,11 +351,24 @@ void FileInterface()
 			break;
 		}
 		case'4': {
-			printf("filename:");
-			std::string fname;
-			std::cin >> fname;
+			printf("Params filename:");
+			std::string Paramfname;
+			std::cin >> Paramfname;
+			printf("Ciphertext filename:");
+			std::string cfname;
+			std::cin >> cfname;
+
+			printf("Plaintext filename:");
+			std::string pfname;
+			std::cin >> pfname;
 			try {
-				AlgomalBuf = AlgomalDecrypt(Curve, fname);
+				AlgomalBuf = AlgomalDecrypt(Curve, Paramfname, cfname);
+				auto Msg = FromPointsToString(Alph, AlgomalBuf);
+				SaveMessage(Msg, pfname);
+			}
+			catch (std::exception& e)
+			{
+				printf("Exception:%s\n", e.what());
 			}
 			catch (...)
 			{
