@@ -333,7 +333,7 @@ public:
 
 			for (auto& Cipher : Ciphertext)
 			{
-				Result.push_back(Cipher.first - (Cipher.second*RandKey));
+				Result.push_back(Cipher.second - (Cipher.first*RandKey));
 			}
 			return Result;
 		}

@@ -5,6 +5,66 @@
             "poinC_y": 210,
             "pointH_x": 259,
             "poinH_y": 401
+        },
+        {
+            "pointC_x": 568,
+            "poinC_y": 355,
+            "pointH_x": 606,
+            "poinH_y": 147
+        },
+        {
+            "pointC_x": 188,
+            "poinC_y": 93,
+            "pointH_x": 407,
+            "poinH_y": 82
+        },
+        {
+            "pointC_x": 56,
+            "poinC_y": 419,
+            "pointH_x": 739,
+            "poinH_y": 574
+        },
+        {
+            "pointC_x": 286,
+            "poinC_y": 136,
+            "pointH_x": 329,
+            "poinH_y": 447
+        },
+        {
+            "pointC_x": 425,
+            "poinC_y": 663,
+            "pointH_x": 520,
+            "poinH_y": 749
+        },
+        {
+            "pointC_x": 72,
+            "poinC_y": 254,
+            "pointH_x": 374,
+            "poinH_y": 315
+        },
+        {
+            "pointC_x": 188,
+            "poinC_y": 93,
+            "pointH_x": 149,
+            "poinH_y": 97
+        },
+        {
+            "pointC_x": 745,
+            "poinC_y": 210,
+            "pointH_x": 13,
+            "poinH_y": 134
+        },
+        {
+            "pointC_x": 440,
+            "poinC_y": 539,
+            "pointH_x": 235,
+            "poinH_y": 19
+        },
+        {
+            "pointC_x": 425,
+            "poinC_y": 663,
+            "pointH_x": 128,
+            "poinH_y": 79
         }
     ]
 }
