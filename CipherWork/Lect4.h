@@ -67,6 +67,9 @@ Deciphering
 Pi = Ci - Priv*Hi
 
 
+Вторник
+3 4 9 10 11 12 13
+7, 8, 5
 
 
 
