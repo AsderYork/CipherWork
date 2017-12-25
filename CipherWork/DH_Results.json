@@ -1,255 +1,191 @@
 {
+    "Curve_a": 14,
+    "Curve_a": 12,
+    "Curve_mod": 43,
+    "genpoint_x": 7,
+    "genpoint_y": 11,
+    "Public_point_x": 17,
+    "Public_point_y": 31,
+    "AlphabetSize": 36,
     "Alphabet": [
         {
             "point_x": 3,
             "point_y": 9,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "à"
         },
         {
             "point_x": 3,
             "point_y": 34,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "á"
         },
         {
             "point_x": 5,
             "point_y": 11,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "â"
         },
         {
             "point_x": 5,
             "point_y": 32,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ã"
         },
         {
             "point_x": 6,
             "point_y": 21,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ä"
         },
         {
             "point_x": 6,
             "point_y": 22,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "å"
         },
         {
             "point_x": 7,
             "point_y": 18,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": ","
         },
         {
             "point_x": 7,
             "point_y": 25,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "¸"
         },
         {
             "point_x": 11,
             "point_y": 11,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "æ"
         },
         {
             "point_x": 11,
             "point_y": 32,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ç"
         },
         {
             "point_x": 12,
             "point_y": 4,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "è"
         },
         {
             "point_x": 12,
             "point_y": 39,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "é"
         },
         {
             "point_x": 20,
             "point_y": 6,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ê"
         },
         {
             "point_x": 20,
             "point_y": 37,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ë"
         },
         {
             "point_x": 21,
             "point_y": 8,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ì"
         },
         {
             "point_x": 21,
             "point_y": 35,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "í"
         },
         {
             "point_x": 23,
             "point_y": 17,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "î"
         },
         {
             "point_x": 23,
             "point_y": 26,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ï"
         },
         {
             "point_x": 24,
             "point_y": 5,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ð"
         },
         {
             "point_x": 24,
             "point_y": 38,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ñ"
         },
         {
             "point_x": 26,
             "point_y": 8,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ò"
         },
         {
             "point_x": 26,
             "point_y": 35,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ó"
         },
         {
             "point_x": 27,
             "point_y": 11,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ô"
         },
         {
             "point_x": 27,
             "point_y": 32,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "õ"
         },
         {
             "point_x": 30,
             "point_y": 16,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ö"
         },
         {
             "point_x": 30,
             "point_y": 27,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "÷"
         },
         {
             "point_x": 34,
             "point_y": 19,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ø"
         },
         {
             "point_x": 34,
             "point_y": 24,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ù"
         },
         {
             "point_x": 36,
             "point_y": 1,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ú"
         },
         {
             "point_x": 36,
             "point_y": 42,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "û"
         },
         {
             "point_x": 37,
             "point_y": 20,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ü"
         },
         {
             "point_x": 37,
             "point_y": 23,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ý"
         },
         {
             "point_x": 39,
             "point_y": 8,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "þ"
         },
         {
             "point_x": 39,
             "point_y": 35,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "ÿ"
         },
         {
             "point_x": 42,
             "point_y": 13,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": " "
         },
         {
             "point_x": 42,
             "point_y": 30,
-            "point_mod": 43,
-            "point_curveCoef": 14,
             "letter": "."
         }
     ]

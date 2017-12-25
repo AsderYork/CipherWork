@@ -5,9 +5,8 @@
 #include <string>
 #include <algorithm>
 
-class ELeptic
+namespace Eleptic
 {
-public:
 	struct Curve;
 	struct Point;
 
@@ -340,5 +339,6 @@ public:
 
 	};
 
+	
 
 };

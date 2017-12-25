@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Messi_Amuro">
+      <UniqueIdentifier>{6332b7b9-9523-475f-ab86-b91fb9809fa5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -43,6 +46,15 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="FileInterface_Curve.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Messi_amuro.h">
+      <Filter>Исходные файлы\Messi_Amuro</Filter>
+    </ClInclude>
+    <ClInclude Include="Messi_Amuro_FileHelper.h">
+      <Filter>Исходные файлы\Messi_Amuro</Filter>
+    </ClInclude>
+    <ClInclude Include="Alphabet_Helper_structures.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

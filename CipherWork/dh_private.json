@@ -1,0 +1,10 @@
+{
+    "PrivateValue": 743,
+	"genpoint_x": 7,
+	"genpoint_y": 11,
+    "File_to_save_results": "DH_Results.json",
+    "CipherData_Filename": "DH_Results.json",
+	"File_with_text_to_cipher": "TextToCipher.txt",
+	"ciphered_text_filename": "CipheredText.txt",	
+	"File_to_save_deciphered": "DecipheredText.txt"
+}

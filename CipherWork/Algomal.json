@@ -1,17 +1,11 @@
 {
-    "PubKey_x": 188,
-    "PubKey_y": 93,
+    "PubKey_x": 10,
+    "PubKey_y": 12,
     "Genpoint_x": 0,
     "Genpoint_y": 1,
     "MaskVals": [
+        1,
         2,
-	2,
-	4,
-	18,
-	15,
-	19,
-	11,
-	2,
-	15
+        3
     ]
 }
