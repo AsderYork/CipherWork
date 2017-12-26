@@ -1,0 +1,11 @@
+{
+    "Curve_a": -1,
+    "Curve_b": 1,
+    "Curve_mod": 751,
+    "GenpointX": 416,
+    "GenpointY": 55,
+    "PointOrder": 13,
+    "HashVal": 8,
+    "SecretKey": 2,
+    "RandomNum": 5
+}

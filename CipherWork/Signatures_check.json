@@ -1,0 +1,13 @@
+{
+    "Curve_a": -1,
+    "Curve_b": 1,
+    "Curve_mod": 751,
+    "GenpointX": 562,
+    "GenpointY": 89,
+    "PointOrder": 13,
+    "HashVal": 7,
+    "OpenQX": 596,
+    "OpenQY": 433,	
+    "SigR": 11,
+    "SigS": 1
+}

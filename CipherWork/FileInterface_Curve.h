@@ -12,6 +12,7 @@
 
 #include "Alphabet_Helper_structures.h"
 #include "Messi_Amuro_FileHelper.h"
+#include "Signatures.h"
 
 
 struct AlgoCryptoPair
@@ -525,6 +526,7 @@ void FileInterface()
 		printf("7)Diffie-Hellman deciphering routine\n");
 		printf("8)Diffie-Hellman ciphering routine\n");
 		printf("9)Messi-Amuro routine\n");
+		printf("S)Signatures routine\n");
 
 		printf("x)exit\n");
 
@@ -668,6 +670,21 @@ void FileInterface()
 
 			try {
 				Messi_Amuro_FileHelper::MessiAmuroRoutine(Curve, Alph);
+			}
+			catch (std::exception& e)
+			{
+				printf("Exception: %s\n", e.what());
+			}
+			catch (...)
+			{
+				printf("Unknown error\n");
+			}
+			break;
+		}
+		case's':
+		case'S': {
+			try {
+				Eleptic::Signatures::SignaturesRoutine();
 			}
 			catch (std::exception& e)
 			{
